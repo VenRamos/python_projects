@@ -1,0 +1,8 @@
+weight = float(input("Weight: "))
+kg_lb = input("Please type, (L)Lbs or (K)kg: ").upper()
+if kg_lb == "L":
+    kg = weight / 2.20
+    print(f"You are {kg} kilos.")
+elif kg_lb == "K":
+    lbs = weight * 2.20
+    print(f"You are {lbs} pounds.")
